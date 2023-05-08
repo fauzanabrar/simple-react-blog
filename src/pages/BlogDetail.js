@@ -37,7 +37,7 @@ export default function BlogDetail() {
           <img src={article.imageUrl} alt={article.title} className="article-image"/>
           <p className="article-summary">{article.summary}</p>
           <p className="article-source">
-            Source : <a href={article.url} target="_blank">{article.newsSite}</a>
+            Source : <a href={article.url} target="_blank" rel="noreferrer">{article.newsSite}</a>
           </p>
         </article>
         
